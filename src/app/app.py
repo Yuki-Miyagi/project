@@ -1103,7 +1103,8 @@ def top():
 
             elif request.form.get("myprofile") == "マイプロフを表示する":
                 session["profile_id"] = request.form.get("my_id")
-                session["profile_id"] = int(session["profile_id"])
+                # session["profile_id"] = int(session["profile_id"])
+                session["profile_id"] = session["user_id"]
                 return redirect("/profile")
 
             # elif request.form.get("to_group_talk") != None:
