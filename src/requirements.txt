@@ -5,7 +5,7 @@ mysqlclient
 SQLAlchemy
 mysql-connector-python
 requests_oauthlib
-Flask-SocketIO == 4
+Flask-SocketIO
 python-SocketIO
 python-engineio
 Flask-Session
