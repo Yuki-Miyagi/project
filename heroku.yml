@@ -2,6 +2,3 @@ build:
   docker:
     web: /src/Dockerfile.web
     db: /mysql/Dockerfile.db
-
-run:
-  web: flask run
