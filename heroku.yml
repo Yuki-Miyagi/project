@@ -1,0 +1,7 @@
+build:
+  docker:
+    web: /src/app/Dockerfile.web
+    db: /mysql/Dockerfile.db
+
+run:
+  web: gunicorn /src/app/app:app --log-file=-
