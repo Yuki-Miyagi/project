@@ -2,3 +2,6 @@ build:
   docker:
     web: /src/Dockerfile.web
     db: /mysql/Dockerfile.db
+  
+run:
+  web: gnicorn app.app:app --log-file -
