@@ -13,3 +13,4 @@ eventlet
 torch
 pandas
 numpy
+gunicorn
