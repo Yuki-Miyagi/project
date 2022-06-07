@@ -4,4 +4,4 @@ build:
     db: /mysql/Dockerfile.db
 
 run:
-  web: gunicorn app:app --log-file -
+  web: flask run
